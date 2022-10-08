@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.qr-code-container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  width: max-content;
+  margin: auto;
+  padding: 4%;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.headline {
+  font-weight: 700;
+}
+
+.body-copy {
+  font-weight: 400;
+}
+
+@media screen {
+}
