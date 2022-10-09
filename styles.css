@@ -5,15 +5,19 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   text-align: center;
-  font-size: 15px;
+}
+
+.qr-section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
 }
 
 .qr-code-container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  width: max-content;
-  margin: auto;
-  padding: 4%;
+  padding: 15px;
 }
 
 img {
@@ -22,11 +26,24 @@ img {
 
 .headline {
   font-weight: 700;
+  font-size: 15px;
+  width: 200px;
+  margin: auto;
+  padding: 8px;
 }
 
 .body-copy {
   font-weight: 400;
+  font-size: 15px;
+  width: 235px;
+  margin: auto;
+  color: hsl(220, 15%, 55%);
+  padding: 8px;
 }
 
-@media screen {
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
